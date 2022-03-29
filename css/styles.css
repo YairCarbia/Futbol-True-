@@ -314,7 +314,31 @@ aside {
   justify-content: space-between;
   align-items: center;
 }
+.boton4 {
+  display: block;
+  font-family: var(--fuente);
+  color: var(--color);
+  text-align: center;
+  padding: 2rem 5rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  background-color: black;
 
+  border: none;
+  text-decoration: none;
+  align-items: center;
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+  margin-right: 2rem;
+  margin-left: 0rem;
+  margin-top: 1rem;
+}
+.boton4:hover {
+  color: var(--secundario);
+  background-color: #3c7209;
+  transition: 0.4s ease-out all;
+}
 .contenedor_tienda_producto {
   margin-left: 1rem;
   margin-right: 0rem;
@@ -371,6 +395,7 @@ aside {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 
 .formulario {
   background-color: var(--color);
