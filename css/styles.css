@@ -233,6 +233,7 @@ aside {
   font-size: 10rem;
   font-family: var(--fuente);
   list-style: none;
+  margin-right: 0;
 }
 .contenido_canchas_p {
   color: var(--secundario);
@@ -544,6 +545,13 @@ picture {
 }
 /* celular */
 @media (max-width: 767px) {
+  body {
+    overflow: hidden;
+}
+  .contenedor{
+    margin-left: 0;
+    margin-right: 0;
+  }
   .promo {
     padding-top: 33rem;
     display: flex;
@@ -555,14 +563,15 @@ picture {
     z-index: 2;
   }
   .container {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 768px;
+    margin:  2rem auto;
   }
   .contenido_canchas_h1 {
     color: var(--secundario);
     font-size: 4rem;
     font-family: var(--fuente);
     list-style: none;
+    overflow: hidden;
   }
   .contenido_canchas_p {
     color: var(--secundario);
@@ -573,8 +582,23 @@ picture {
   .contenedor_img3{
   display: none;
   }
-
-  aside {
+  aside{
+    width: 330px;
+  }
+.indice a{
+  width: 12rem;
+  height: 15rem;
+  font-size: 2.2rem;
+  padding-right:-20rem ;
+  padding-left: 5rem; 
+  margin-bottom: 0rem;
+    box-sizing: border-box;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    text-align: center;
+}
+  .container aside {
     /* 
     min-width: 1%;
     margin-top: 10px;
@@ -582,15 +606,34 @@ picture {
     margin-left: 1px;
     margin-right: 0px;
     padding-right:0px; */
-    margin: 10px 35px 10px 20px;
+    margin: 10px 2.5rem 1px 2.5rem;
     height: 100%;
     background-color: var(--secundario);
-    padding: 2rem;
+    padding: 0rem;
     border-radius: 10px;
     box-sizing: border-box;
     position: sticky;
     top: 1.5rem;
     font-size: 2rem;
+  }
+  .container .boton {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  a .boton4{
+    border: none;
+    color: white;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px 5px;
+    cursor: pointer;
   }
   .boton1 {
     padding: 1rem 2rem;
@@ -622,9 +665,10 @@ picture {
     min-height: 80vh;
     position: relative;
   }
-
+  
   .titulo {
     font-size: 2.8rem;
+   
   }
   .boton4 {
     display: block;
@@ -848,6 +892,9 @@ text-align: center;
   padding: 5rem;
   font-family: var(--fuente);
   font-size: 2.5rem;
+}
+#cancha1{
+  padding: 0px;
 }
 
 } 
