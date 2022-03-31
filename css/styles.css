@@ -66,7 +66,6 @@ p {
 .container {
   max-width: 1080px;
   margin: 0 auto;
-
 }
 .margin-bot {
   margin-bottom: 25px;
@@ -105,9 +104,9 @@ header .menu {
   padding: 10px;
   background: var(--secundario);
   position: sticky;
-display: flex;
- 
-justify-content: space-between;
+  display: flex;
+
+  justify-content: space-between;
   align-items: center;
   top: 0;
   background: var(--secundario);
@@ -125,7 +124,7 @@ justify-content: space-between;
   align-items: center;
   flex-direction: row;
 }
-.menu{
+.menu {
   background-color: var(--secundario);
   margin-bottom: 0rem;
   flex-direction: row;
@@ -133,12 +132,12 @@ justify-content: space-between;
   align-items: center;
   flex-basis: 30%;
 }
-.menu_logo{
-  color:var(--color);
+.menu_logo {
+  color: var(--color);
   font-size: 5rem;
-padding-top: 2rem;
+  padding-top: 2rem;
 }
-.menu_div_ul{
+.menu_div_ul {
   flex-basis: 30%;
 }
 .menu_link {
@@ -226,8 +225,8 @@ padding-top: 2rem;
   grid-template-columns: 1fr, 2fr;
   column-gap: 4rem;
 }
- .container_aside {
-  min-width:10%;
+.container_aside {
+  min-width: 10%;
   margin-top: 15px;
   margin-bottom: 10px;
   margin-left: 10px;
@@ -243,16 +242,15 @@ padding-top: 2rem;
   font-size: 5rem;
   font-family: var(--fuente);
 }
-.container_aside_titulo{
+.container_aside_titulo {
   font-family: var(--fuente);
   color: var(--color);
   padding: 1.2rem;
   text-align: center;
 }
-.container_aside_nav{
-  
+.container_aside_nav {
 }
-.container_aside_ancla{
+.container_aside_ancla {
   display: block;
   font-family: var(--fuente);
   color: var(--color);
@@ -266,32 +264,27 @@ padding-top: 2rem;
   text-decoration: none;
   align-items: center;
 }
-.container_aside_ancla:hover{
+.container_aside_ancla:hover {
   color: var(--secundario);
   background-color: #3c7209;
   transition: 0.4s ease-out all;
 }
-.container_canchas{
-
+.container_canchas {
 }
-.container_canchas_div{
-
+.container_canchas_div {
 }
-.container_canchas_p{
+.container_canchas_p {
   font-family: var(--fuente);
   color: var(--secundario);
   padding: 1.2rem;
   font-size: 5rem;
- 
 }
-.container_canchas_ul{
+.container_canchas_ul {
   font-family: var(--fuente);
   color: var(--secundario);
   padding: 1.2rem;
   font-size: 4rem;
-  list-style:none;
-  
- 
+  list-style: none;
 }
 
 .contenido_canchas_h1 {
@@ -314,7 +307,7 @@ padding-top: 2rem;
 
   list-style: none;
 }
-.container_canchas_boton{
+.container_canchas_boton {
   display: block;
   font-family: var(--fuente);
   color: var(--color);
@@ -323,12 +316,12 @@ padding-top: 2rem;
   font-size: 3rem;
   text-transform: uppercase;
   background-color: black;
-margin-bottom: 2rem;
+  margin-bottom: 2rem;
   border: none;
   text-decoration: none;
   align-items: center;
 }
-.container_canchas_boton:hover{
+.container_canchas_boton:hover {
   color: var(--secundario);
   background-color: #3c7209;
   transition: 0.4s ease-out all;
@@ -482,7 +475,6 @@ margin-bottom: 2rem;
   background-repeat: no-repeat;
 }
 
-
 .formulario {
   background-color: var(--color);
   margin: -55rem auto 0 auto;
@@ -523,56 +515,57 @@ picture {
 /* MEDIA QUERYS  */
 /* celular */
 
-@media only screen and (max-width: 768px){
-body{
-  background-color: #fff;
-}
-.logo_img{
-  background-color:var(--secundario);
-}
-nav{
-  background-color: var(--secundario);
-}
-.container2{
-  /* margin-left: 0;
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #fff;
+  }
+  .logo_img {
+    background-color: var(--secundario);
+  }
+  nav {
+    background-color: var(--secundario);
+  }
+  .container2 {
+    /* margin-left: 0;
   margin-right: 0;
   max-width: 768px;
  margin:  2rem auto; */
 
-  padding: 10px;
-   background:var(--secundario);
+    padding: 10px;
+    background: var(--secundario);
     position: sticky;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     top: 0;
-    
+
     position: sticky !important;
     top: 0;
-}
-.container{
-  /* margin-left: 0;
+  }
+  .container {
+    /* margin-left: 0;
   margin-right: 0;
   max-width: 768px;
  margin:  2rem auto; */
 
-  padding: 10px;
-   background:white;
+    padding: 10px;
+    background: white;
     position: sticky;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     top: 0;
-    
+
     position: sticky !important;
     top: 0;
-}
+  }
 
-h1{font-size: 1.9rem;}
-.menu{
-
+  h1 {
+    font-size: 1.9rem;
+  }
+  .menu {
     padding: 10px;
     background: var(--color);
     position: sticky;
@@ -584,128 +577,127 @@ h1{font-size: 1.9rem;}
     background: var(--secundario);
     position: sticky !important;
     top: 0;
-  
-}
- .logo_nombre{
-  font-size: 2rem;
- }
- .promo {
-  padding-top: 33rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 60%;
-  margin: auto;
-  position: relative;
-  z-index: 2;
-}
- #hero{
-  
+  }
+  .logo_nombre {
+    font-size: 2rem;
+  }
+  .hero_promo {
+    padding-top: 33rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+  }
+  .hero {
     min-height: 1vh;
     position: relative;
-  
- }
- aside, .container_aside{
-   display: none;
- }
-.container_canchas_h2{
-  font-size: 5rem;
-  margin-left: 1rem;
-}
-.container_canchas_p{
-font-size: 4rem;
-margin-left: ;
-}
-.menu_div_ul{
-  padding: 10px;
-  background: var(--color);
-  position: sticky;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  top: 0;
-  background: var(--secundario);
-  position: sticky !important;
-  top: 0;
-}
-.menu_link{
-  display: flex;
-  flex-direction: row;
-}
-/* canchas */
+  }
+  aside,
+  .container_aside {
+    display: none;
+  }
+  .container_canchas_h2 {
+    font-size: 5rem;
+    margin-left: 1rem;
+  }
+  .container_canchas_p {
+    font-size: 4rem;
+  }
+  .menu_div_ul {
+    padding: 10px;
+    background: var(--color);
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    background: var(--secundario);
+    position: sticky !important;
+    top: 0;
+  }
+  .menu_link {
+    display: flex;
+    flex-direction: row;
+  }
+  /* canchas */
 
-.logo_nombre,.logo_nombre2{
-  font-size: 4rem;
-  color: var(--color);
-}
-.logo_nombre2{
-margin-top: 2rem;
-}
+  .logo_nombre,
+  .logo_nombre2 {
+    font-size: 4rem;
+    color: var(--color);
+  }
+  .logo_nombre2 {
+    margin-top: 2rem;
+  }
 
-.container_grid, .container_grid2{
-  display: flex;
+  .container_grid,
+  .container_grid2 {
+    display: flex;
     flex-direction: column;
     align-items: center;
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-.container_img{
-  width: 300px;
-  height: 200px;
-  margin: 0 auto 2rem;
-}
-.container_img2{
-  width: 300px;
-  height: 200px;
-  margin: 0 auto 2rem;
-}
-.container_img3{
-  width: 300px;
-  height: 200px;
-  margin: 0;
-}
-.contenido_canchas_h1{
-  font-size: 5rem;
-}
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .container_img {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto 2rem;
+  }
+  .container_img2 {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto 2rem;
+  }
+  .container_img3 {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+  }
+  .contenido_canchas_h1 {
+    font-size: 5rem;
+  }
 
-/* Escuela */
-.centrar-txt{
-  font-size: 5rem;
-}
-.contenedor_img4{
-  display: none;
-}
-.contenedor_img5{
-  width: 300px;
-  height: 200px;
-  margin: 0 auto 2rem;
-}
-/* tienda */
-#aside2{
-  min-width: 5%;
-  margin-top: 0;
-  margin-bottom: 1px;
-  margin-left: 1px;
-  margin-right: 20px;
-  padding-right: 2px;
-  /* margin: 40px 20px 20px 0; */
-  height: 2%;
-  background-color: var(--secundario);
-  padding: 2rem;
-  border-radius: 10px;
-  position: sticky;
-  top: rem;
-  font-size: 7rem;
-  width: 2102312p;
-}
-.container_tienda_pelotas {
+  /* Escuela */
+  .centrar-txt {
+    font-size: 5rem;
+  }
+  .contenedor_img4 {
+    display: none;
+  }
+  .contenedor_img5 {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto 2rem;
+  }
+  /* tienda */
+  #aside2 {
+    min-width: 5%;
+    margin-top: 0;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 20px;
+    padding-right: 2px;
+    /* margin: 40px 20px 20px 0; */
+    height: 2%;
+    background-color: var(--secundario);
+    padding: 2rem;
+    border-radius: 10px;
+    position: sticky;
+    top: rem;
+    font-size: 7rem;
+    width: 2102312p;
+  }
+  .container_tienda_pelotas {
     display: flex;
     /* grid-template-columns: repeat(1, 1fr); */
     flex-direction: column;
     margin-left: -12rem;
   }
-  .container_tienda_botines{
+  .container_tienda_botines {
     display: flex;
     /* grid-template-columns: repeat(1, 1fr); */
     flex-direction: row;
@@ -714,36 +706,34 @@ margin-top: 2rem;
     width: 70px;
     height: 80px;
   }
-  .container_h3{
+  .container_h3 {
     color: var(--color);
     font-family: var(--fuente);
     font-size: 5rem;
- 
-  
   }
 
   /* contacto */
-  .container_contacto,.contacto-bg{
+  .container_contacto,
+  .contacto-bg {
     background-image: url(../img/chancha\ de\ 7\ turno\ nocturno.jpg);
   }
-.container_h4{
-  color: var(--color);
-text-align: center;
-}
-.container_form{
-  margin-left: 4rem;
-  margin-right: 20rem;
-  margin-bottom: 2rem;
+  .container_h4 {
+    color: var(--color);
+    text-align: center;
+  }
+  .container_form {
+    margin-left: 4rem;
+    margin-right: 20rem;
+    margin-bottom: 2rem;
+  }
+  .campo__label {
+    margin-left: -4rem;
+  }
 
-}
-.campo__label{
-  margin-left: -4rem;
-}
-
-.campo__field{
-  margin-left:-2rem;
-}
-.campo__field--textarea{
-  margin-right:-3rem;
-}
+  .campo__field {
+    margin-left: -2rem;
+  }
+  .campo__field--textarea {
+    margin-right: -3rem;
+  }
 }
