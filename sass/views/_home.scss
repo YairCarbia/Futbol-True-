@@ -48,13 +48,13 @@ main{
                 border: none;
                 text-decoration: none;
                 align-items: center;
-                &-activo {
-                  @extend .container_aside_ancla;
-                  color: var(--secundario);
-                  background-color: #3c7209;
-                  transition: 0.4s ease-out all;
-                  border-bottom: 2px solid var(--color);
-                  } 
+                // &-activo {
+                //   @extend .container_aside_ancla;
+                //   color: var(--secundario);
+                //   background-color: #3c7209;
+                //   transition: 0.4s ease-out all;
+                //   border-bottom: 2px solid var(--color);
+                //   } 
             }
              }
 
@@ -102,9 +102,51 @@ main{
         
 
 }
-@media  (min-width:1000px){
- h1{
-   font-size: 5rem;
+@media (max-width:600px) {
+  .hero {
+    min-height: 10.5vh;
+    position: relative;
+    &_promo{
+
+    text-align: center;
+    }
+  .container_canchas_boton{
+    margin-left: -2rem;
+    
+  }
+  }}
+@media (min-width:768px) {
+
+  .hero {
+    min-height: 10.5vh;
+    position: relative;
+    &_promo{
+
+    text-align: center;
+    }
+  .container_canchas_boton{
+    margin-left: 10rem;
+    margin-right: 2rem;
+  }
+}
+  .container{
+  width:5px;
+  &_canchas_boton{
+    margin-left: 20rem;
+  }
+  p,li.container_canchas_boton{
+   text-align:left;
+    margin-left: 2rem
+  }
+};
+}
+@media  (max-width:1000px){
+ p{
+   font-size: 3rem;
+   text-align: center;
+ }
+  h1{
+   font-size: 4.5rem;
  }
   .hero {
     min-height:2vh;
@@ -123,233 +165,235 @@ main{
 }
 
         // media
-        @media  (max-width: 1000px) {
-         h1{
-           font-size: 5rem;
-         }
-          .menu_div{
-            margin-right: 200rem;
-          }
-          body {
-            background-color: #fff;
-          }
-          .logo_img {
-            background-color: var(--secundario);
-          }
-          nav {
-            background-color: var(--secundario);
-          }
-          .container2 {
-            /* margin-left: 0;
-          margin-right: 0;
-          max-width: 768px;
-         margin:  2rem auto; */
+        // @media  (max-width: 1000px) {
+        //   p{
+        //     font-size: 3rem;
+        //     text-align: center;
+        //   }
+        //   h1{
+        //    font-size: 4.5rem;
+        //  }
+        //   .menu_div{
+        //     margin-right: 200rem;
+        //   }
+        //   body {
+        //     background-color: #fff;
+        //   }
+        //   .logo_img {
+        //     background-color: var(--secundario);
+        //   }
+        //   nav {
+        //     background-color: var(--secundario);
+        //   }
+        //   .container2 {
+        //     /* margin-left: 0;
+        //   margin-right: 0;
+        //   max-width: 768px;
+        //  margin:  2rem auto; */
         
-            padding: 10px;
-            background: var(--secundario);
-            position: sticky;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            top: 0;
+        //     padding: 10px;
+        //     background: var(--secundario);
+        //     position: sticky;
+        //     display: flex;
+        //     flex-direction: column;
+        //     justify-content: space-between;
+        //     align-items: center;
+        //     top: 0;
         
-            position: sticky !important;
-            top: 0;
-          }
-          .container {
-            /* margin-left: 0;
-          margin-right: 0;
-          max-width: 768px;
-         margin:  2rem auto; */
+        //     position: sticky !important;
+        //     top: 0;
+        //   }
+        //   .container {
+        //     /* margin-left: 0;
+        //   margin-right: 0;
+        //   max-width: 768px;
+        //  margin:  2rem auto; */
         
-            padding: 10px;
-            background: white;
-            position: sticky;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            top: 0;
+        //     padding: 10px;
+        //     background: white;
+        //     position: sticky;
+        //     display: flex;
+        //     flex-direction: column;
+        //     justify-content: space-between;
+        //     align-items: center;
+        //     top: 0;
         
-            position: sticky !important;
-            top: 0;
-          }
+        //     position: sticky !important;
+        //     top: 0;
+        //   }
         
-          h1 {
-            font-size: 1.9rem;
-          } 
-          .menu {
-            padding: 10px;
-            background: var(--color);
-            position: sticky;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            top: 0;
-            background: var(--secundario);
-            position: sticky !important;
-            top: 0;
-          }
-          .logo_nombre {
-            font-size: 2rem;
-          }
          
-          .hero {
-            min-height:69vh;
-            position: relative;
-            &_promo {
-              padding-top: 33rem;
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              width: 60%;
-              margin: auto;
-              position: relative;
-              z-index: 2;
-            }
-          }
-          aside,
-          .container_aside {
-            display: none;
-          }
-          .container_canchas_h2 {
-            font-size: 5rem;
-            margin-left: 1rem;
-          }
-          .container_canchas_p {
-            font-size: 4rem;
-          }
+        //   .menu {
+        //     padding: 10px;
+        //     background: var(--color);
+        //     position: sticky;
+        //     display: flex;
+        //     flex-direction: row;
+        //     justify-content: space-between;
+        //     align-items: center;
+        //     top: 0;
+        //     background: var(--secundario);
+        //     position: sticky !important;
+        //     top: 0;
+        //   }
+        //   .logo_nombre {
+        //     font-size: 2rem;
+        //   }
+         
+        //   .hero {
+        //     min-height:69vh;
+        //     position: relative;
+        //     &_promo {
+        //       padding-top: 33rem;
+        //       display: flex;
+        //       flex-direction: column;
+        //       justify-content: center;
+        //       width: 60%;
+        //       margin: auto;
+        //       position: relative;
+        //       z-index: 2;
+        //     }
+        //   }
+        //   aside,
+        //   .container_aside {
+        //     display: none;
+        //   }
+        //   .container_canchas_h2 {
+        //     font-size: 5rem;
+        //     margin-left: 1rem;
+        //   }
+        //   .container_canchas_p {
+        //     font-size: 4rem;
+        //   }
           
-          .menu_div_ul {
-            padding: 10px;
-            background: var(--color);
-            position: sticky;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            top: 0;
-            background: var(--secundario);
-            position: sticky !important;
-            top: 0;
-          }
-          .menu_link {
-            display: flex;
-            flex-direction: row;
-          }
-          /* canchas */
+        //   .menu_div_ul {
+        //     padding: 10px;
+        //     background: var(--color);
+        //     position: sticky;
+        //     display: flex;
+        //     flex-direction: row;
+        //     justify-content: space-between;
+        //     align-items: center;
+        //     top: 0;
+        //     background: var(--secundario);
+        //     position: sticky !important;
+        //     top: 0;
+        //   }
+        //   .menu_link {
+        //     display: flex;
+        //     flex-direction: row;
+        //   }
+        //   /* canchas */
         
-          .logo_nombre,
-          .logo_nombre2 {
-            font-size: 4rem;
-            color: var(--color);
-          }
-          .logo_nombre2 {
-            margin-top: 2rem;
-          }
+        //   .logo_nombre,
+        //   .logo_nombre2 {
+        //     font-size: 4rem;
+        //     color: var(--color);
+        //   }
+        //   .logo_nombre2 {
+        //     margin-top: 2rem;
+        //   }
         
-          .container_grid,
-          .container_grid2 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-left: 2rem;
-            margin-right: 2rem;
-          }
-          .container_img {
-            width: 300px;
-            height: 200px;
-            margin: 0 auto 2rem;
-          }
-          .container_img2 {
-            width: 300px;
-            height: 200px;
-            margin: 0 auto 2rem;
-          }
-          .container_img3 {
-            width: 300px;
-            height: 200px;
-            margin: 0;
-          }
-          .contenido_canchas_h1 {
-            font-size: 5rem;
-          }
+        //   .container_grid,
+        //   .container_grid2 {
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     margin-left: 2rem;
+        //     margin-right: 2rem;
+        //   }
+        //   .container_img {
+        //     width: 300px;
+        //     height: 200px;
+        //     margin: 0 auto 2rem;
+        //   }
+        //   .container_img2 {
+        //     width: 300px;
+        //     height: 200px;
+        //     margin: 0 auto 2rem;
+        //   }
+        //   .container_img3 {
+        //     width: 300px;
+        //     height: 200px;
+        //     margin: 0;
+        //   }
+        //   .contenido_canchas_h1 {
+        //     font-size: 3rem;
+        //   }
         
-          /* Escuela */
-          .centrar-txt {
-            font-size: 5rem;
-          }
-          .contenedor_img4 {
-            display: none;
-          }
-          .contenedor_img5 {
-            width: 300px;
-            height: 200px;
-            margin: 0 auto 2rem;
-          }
-          /* tienda */
-          #aside2 {
-            min-width: 5%;
-            margin-top: 0;
-            margin-bottom: 1px;
-            margin-left: 1px;
-            margin-right: 20px;
-            padding-right: 2px;
-            /* margin: 40px 20px 20px 0; */
-            height: 2%;
-            background-color: var(--secundario);
-            padding: 2rem;
-            border-radius: 10px;
-            position: sticky;
-            top: rem;
-            font-size: 7rem;
-            width: 2102312p;
-          }
-          .container_tienda_pelotas {
-            display: flex;
-            /* grid-template-columns: repeat(1, 1fr); */
-            flex-direction: column;
-            margin-left: -12rem;
-          }
-          .container_tienda_botines {
-            display: flex;
-            /* grid-template-columns: repeat(1, 1fr); */
-            flex-direction: row;
-          }
-          div .contenedor_tienda_grid img {
-            width: 70px;
-            height: 80px;
-          }
-          .container_h3 {
-            color: var(--color);
-            font-family: var(--fuente);
-            font-size: 5rem;
-          }
+        //   /* Escuela */
+        //   .centrar-txt {
+        //     font-size: 5rem;
+        //   }
+        //   .contenedor_img4 {
+        //     display: none;
+        //   }
+        //   .contenedor_img5 {
+        //     width: 300px;
+        //     height: 200px;
+        //     margin: 0 auto 2rem;
+        //   }
+        //   /* tienda */
+        //   #aside2 {
+        //     min-width: 5%;
+        //     margin-top: 0;
+        //     margin-bottom: 1px;
+        //     margin-left: 1px;
+        //     margin-right: 20px;
+        //     padding-right: 2px;
+        //     /* margin: 40px 20px 20px 0; */
+        //     height: 2%;
+        //     background-color: var(--secundario);
+        //     padding: 2rem;
+        //     border-radius: 10px;
+        //     position: sticky;
+        //     top: rem;
+        //     font-size: 7rem;
+        //     width: 2102312p;
+        //   }
+        //   .container_tienda_pelotas {
+        //     display: flex;
+        //     /* grid-template-columns: repeat(1, 1fr); */
+        //     flex-direction: column;
+        //     margin-left: -12rem;
+        //   }
+        //   .container_tienda_botines {
+        //     display: flex;
+        //     /* grid-template-columns: repeat(1, 1fr); */
+        //     flex-direction: row;
+        //   }
+        //   div .contenedor_tienda_grid img {
+        //     width: 70px;
+        //     height: 80px;
+        //   }
+        //   .container_h3 {
+        //     color: var(--color);
+        //     font-family: var(--fuente);
+        //     font-size: 5rem;
+        //   }
         
-          /* contacto */
-          .container_contacto,
-          // .contacto-bg {
-          //   background-image:url(../../img/chancha\ de 7 turno nocturno.jpg);
-          // }
-          .container_h4 {
-            color: var(--color);
-            text-align: center;
-          }
-          .container_form {
-            margin-left: 4rem;
-            margin-right: 20rem;
-            margin-bottom: 2rem;
-          }
-          .campo__label {
-            margin-left: -4rem;
-          }
+        //   /* contacto */
+        //   .container_contacto,
+        //   // .contacto-bg {
+        //   //   background-image:url(../../img/chancha\ de 7 turno nocturno.jpg);
+        //   // }
+        //   .container_h4 {
+        //     color: var(--color);
+        //     text-align: center;
+        //   }
+        //   .container_form {
+        //     margin-left: 4rem;
+        //     margin-right: 20rem;
+        //     margin-bottom: 2rem;
+        //   }
+        //   .campo__label {
+        //     margin-left: -4rem;
+        //   }
         
-          .campo__field {
-            margin-left: -2rem;
-          }
-          .campo__field--textarea {
-            margin-right: -3rem;
-          }
-        }
+        //   .campo__field {
+        //     margin-left: -2rem;
+        //   }
+        //   .campo__field--textarea {
+        //     margin-right: -3rem;
+        //   }
+        // }

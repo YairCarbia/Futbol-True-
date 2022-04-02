@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-.btn--twitter {
-  background-color: blue; }
-
-.btn--insta {
-  background-color: pink; }
-
-.btn--wpp {
-  background-color: red; }
-
-=======
->>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
 *,
 *:before,
 *:after {
@@ -23,11 +11,7 @@ html {
   scroll-behavior: smooth; }
 
 body {
-<<<<<<< HEAD
   color: var(black); }
-=======
-  color: var(--secundario); }
->>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
 
 a {
   display: flex;
@@ -39,7 +23,6 @@ a {
       /* text-decoration: underline; 
       */
 h1 {
-<<<<<<< HEAD
   font-family: var("Bebas Neue", cursive);
   font-size: 7rem;
   color: var(white); }
@@ -49,17 +32,6 @@ h2 {
 
 p {
   font-family: var("Bebas Neue", cursive);
-=======
-  font-family: var(--fuente);
-  font-size: 7rem;
-  color: var(--color); }
-
-h2 {
-  font-family: var(--fuente); }
-
-p {
-  font-family: var(--fuente);
->>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
   font-size: 2.5rem;
   color: var(--color);
   margin: 0%;
@@ -67,19 +39,11 @@ p {
 
 /* HELPERS */
 .color-n {
-<<<<<<< HEAD
   color: var(black); }
 
 .centrar-txt {
   text-align: center;
   color: var(black); }
-=======
-  color: var(--secundario); }
-
-.centrar-txt {
-  text-align: center;
-  color: var(--secundario); }
->>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
 
 .flex-column {
   display: flex;
@@ -89,13 +53,19 @@ p {
 .flex-row {
   display: flex; }
 
+.container_img {
+  height: 200px;
+  width: 300px; }
+
+.container_img2 {
+  height: 200px;
+  width: 300px; }
+
+.container_img3 {
+  height: 200px;
+  width: 300px; }
+
 header {
-<<<<<<< HEAD
-  background-color: var(black); }
-  header .hero {
-    min-height: 85.5vh;
-    position: relative; }
-=======
   background-color: var(--secundario); }
   header .hero {
     min-height: 87.5vh;
@@ -117,8 +87,8 @@ header {
         color: var(--secundario);
         background-color: #3c7209;
         transition: 0.4s ease-out all; }
->>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
-    header .hero_promo {
+    > > >
+header .hero_promo {
       padding-top: 350px;
       display: flex;
       flex-direction: column;
@@ -126,22 +96,15 @@ header {
       align-items: center;
       width: 60%;
       margin: auto;
-      position: relative;
+      position: sticky;
       z-index: 2; }
-<<<<<<< HEAD
-    header .hero .efecto {
-      animation: efecto 1s; }
+  header .efecto {
+    animation: efecto 1s; }
   header .navbar {
     padding: 10px;
     background: var(black);
     position: sticky;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    background: var(black);
-=======
+    display: flex; }
   header .navbar {
     padding: 10px;
     background: var(--secundario);
@@ -150,8 +113,8 @@ header {
     justify-content: space-between;
     align-items: center;
     top: 0;
+    background: var(black);
     background: var(--secundario);
->>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
     position: sticky !important;
     top: 0; }
     header .navbar_logo_img {
@@ -163,22 +126,14 @@ header {
     flex-basis: 30%;
     justify-content: space-between; }
   header .menu {
-<<<<<<< HEAD
-    background-color: var(black);
-=======
     background-color: var(--secundario);
->>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
     margin-bottom: 0rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-basis: 30%; }
     header .menu_logo {
-<<<<<<< HEAD
-      color: var(white);
-=======
       color: var(--color);
->>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
       font-size: 5rem;
       padding-top: 2rem; }
     header .menu_link {
@@ -187,17 +142,10 @@ header {
       padding: 20px;
       width: 100%;
       text-align: center;
-<<<<<<< HEAD
-      color: var(white);
-      transition: 0.4s ease-out all;
-      font-size: 2rem;
-      font-family: var("Bebas Neue", cursive); }
-=======
       color: var(--color);
       transition: 0.4s ease-out all;
       font-size: 2rem;
       font-family: var(--fuente); }
->>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
       header .menu_link_link:hover {
         background: #3c7209;
         color: #fff;
@@ -224,13 +172,8 @@ header {
 
 .boton {
   display: block;
-<<<<<<< HEAD
-  font-family: var("Bebas Neue", cursive);
-  color: var(white);
-=======
   font-family: var(--fuente);
   color: var(--color);
->>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
   text-align: center;
   padding: 2rem 5rem;
   font-size: 3rem;
@@ -245,8 +188,7 @@ header {
   text-align: center; }
 
 .boton:hover {
-<<<<<<< HEAD
-  color: var(black);
+  color: var(--secundario);
   background-color: #3c7209;
   transition: 0.4s ease-out all; }
 
@@ -265,15 +207,6 @@ footer .menu {
     padding-top: 2rem; }
   footer .menu_div {
     margin-left: 2rem; }
-
-.btn--twitter {
-  background-color: blue; }
-
-.btn--insta {
-  background-color: pink; }
-
-.btn--wpp {
-  background-color: red; }
 
 main .container {
   max-width: 1080px;
@@ -315,10 +248,6 @@ main .container {
       border: none;
       text-decoration: none;
       align-items: center; }
-      main .container_aside_aside_ancla--activo {
-        color: var(black);
-        background-color: #3c7209;
-        transition: 0.4s ease-out all; }
   main .container_canchas_h2 {
     font-size: 5rem;
     margin-left: 1rem; }
@@ -348,9 +277,38 @@ main .container {
       background-color: #3c7209;
       transition: 0.4s ease-out all; }
 
-@media (min-width: 1000px) {
+@media (max-width: 600px) {
+  .hero {
+    min-height: 10.5vh;
+    position: relative; }
+    .hero_promo {
+      text-align: center; }
+    .hero .container_canchas_boton {
+      margin-left: -2rem; } }
+
+@media (min-width: 768px) {
+  .hero {
+    min-height: 10.5vh;
+    position: relative; }
+    .hero_promo {
+      text-align: center; }
+    .hero .container_canchas_boton {
+      margin-left: 10rem;
+      margin-right: 2rem; }
+  .container {
+    width: 5px; }
+    .container_canchas_boton {
+      margin-left: 20rem; }
+    .container p, .container li.container_canchas_boton {
+      text-align: left;
+      margin-left: 2rem; } }
+
+@media (max-width: 1000px) {
+  p {
+    font-size: 3rem;
+    text-align: center; }
   h1 {
-    font-size: 5rem; }
+    font-size: 4.5rem; }
   .hero {
     min-height: 2vh;
     position: relative; }
@@ -363,184 +321,6 @@ main .container {
       margin: auto;
       position: relative;
       z-index: 2; } }
-
-@media (max-width: 1000px) {
-  h1 {
-    font-size: 5rem; }
-  .menu_div {
-    margin-right: 200rem; }
-  body {
-    background-color: #fff; }
-  .logo_img {
-    background-color: var(--secundario); }
-  nav {
-    background-color: var(--secundario); }
-  .container2 {
-    /* margin-left: 0;
-          margin-right: 0;
-          max-width: 768px;
-         margin:  2rem auto; */
-    padding: 10px;
-    background: var(--secundario);
-    position: sticky;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    position: sticky !important;
-    top: 0; }
-  .container {
-    /* margin-left: 0;
-          margin-right: 0;
-          max-width: 768px;
-         margin:  2rem auto; */
-    padding: 10px;
-    background: white;
-    position: sticky;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    position: sticky !important;
-    top: 0; }
-  h1 {
-    font-size: 1.9rem; }
-  .menu {
-    padding: 10px;
-    background: var(--color);
-    position: sticky;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    background: var(--secundario);
-    position: sticky !important;
-    top: 0; }
-  .logo_nombre {
-    font-size: 2rem; }
-  .hero {
-    min-height: 69vh;
-    position: relative; }
-    .hero_promo {
-      padding-top: 33rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 60%;
-      margin: auto;
-      position: relative;
-      z-index: 2; }
-  aside,
-  .container_aside {
-    display: none; }
-  .container_canchas_h2 {
-    font-size: 5rem;
-    margin-left: 1rem; }
-  .container_canchas_p {
-    font-size: 4rem; }
-  .menu_div_ul {
-    padding: 10px;
-    background: var(--color);
-    position: sticky;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    background: var(--secundario);
-    position: sticky !important;
-    top: 0; }
-  .menu_link {
-    display: flex;
-    flex-direction: row; }
-  /* canchas */
-  .logo_nombre,
-  .logo_nombre2 {
-    font-size: 4rem;
-    color: var(--color); }
-  .logo_nombre2 {
-    margin-top: 2rem; }
-  .container_grid,
-  .container_grid2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 2rem;
-    margin-right: 2rem; }
-  .container_img {
-    width: 300px;
-    height: 200px;
-    margin: 0 auto 2rem; }
-  .container_img2 {
-    width: 300px;
-    height: 200px;
-    margin: 0 auto 2rem; }
-  .container_img3 {
-    width: 300px;
-    height: 200px;
-    margin: 0; }
-  .contenido_canchas_h1 {
-    font-size: 5rem; }
-  /* Escuela */
-  .centrar-txt {
-    font-size: 5rem; }
-  .contenedor_img4 {
-    display: none; }
-  .contenedor_img5 {
-    width: 300px;
-    height: 200px;
-    margin: 0 auto 2rem; }
-  /* tienda */
-  #aside2 {
-    min-width: 5%;
-    margin-top: 0;
-    margin-bottom: 1px;
-    margin-left: 1px;
-    margin-right: 20px;
-    padding-right: 2px;
-    /* margin: 40px 20px 20px 0; */
-    height: 2%;
-    background-color: var(--secundario);
-    padding: 2rem;
-    border-radius: 10px;
-    position: sticky;
-    top: rem;
-    font-size: 7rem;
-    width: 2102312p; }
-  .container_tienda_pelotas {
-    display: flex;
-    /* grid-template-columns: repeat(1, 1fr); */
-    flex-direction: column;
-    margin-left: -12rem; }
-  .container_tienda_botines {
-    display: flex;
-    /* grid-template-columns: repeat(1, 1fr); */
-    flex-direction: row; }
-  div .contenedor_tienda_grid img {
-    width: 70px;
-    height: 80px; }
-  .container_h3 {
-    color: var(--color);
-    font-family: var(--fuente);
-    font-size: 5rem; }
-  /* contacto */
-  .container_contacto,
-  .container_h4 {
-    color: var(--color);
-    text-align: center; }
-  .container_form {
-    margin-left: 4rem;
-    margin-right: 20rem;
-    margin-bottom: 2rem; }
-  .campo__label {
-    margin-left: -4rem; }
-  .campo__field {
-    margin-left: -2rem; }
-  .campo__field--textarea {
-    margin-right: -3rem; } }
 
 main .container_form {
   margin-left: 4rem;
@@ -634,6 +414,138 @@ main {
   main .efecto {
     animation: efecto 1s; }
 
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #fff; }
+  .logo_img {
+    background-color: var(--secundario); }
+  nav {
+    background-color: var(--secundario); }
+  .container2 {
+    max-width: 768px;
+    padding: 10px;
+    background: var(--secundario);
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: sticky !important;
+    top: 0; }
+  .container {
+    /* margin-left: 0;
+  margin-right: 0;
+  max-width: 768px;
+ margin:  2rem auto; */
+    padding: 10px;
+    background: white;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: sticky !important;
+    top: 0; }
+  h1 {
+    font-size: 1.9rem; }
+  .menu {
+    padding: 10px;
+    background: var(--color);
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    background: var(--secundario);
+    position: sticky !important;
+    top: 0; }
+  .logo_nombre {
+    font-size: 2rem; }
+  .hero_promo {
+    padding-top: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    z-index: 2; }
+  .hero {
+    min-height: 89vh;
+    position: relative; }
+  aside,
+  .container_aside {
+    display: none; }
+  .container_canchas_h2 {
+    font-size: 5rem;
+    margin-left: 1rem; }
+  .container_canchas_p {
+    font-size: 4rem; }
+  .menu_div_ul {
+    padding: 10px;
+    background: var(--color);
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    background: var(--secundario);
+    position: sticky !important;
+    top: 0; }
+  .menu_link {
+    display: flex;
+    flex-direction: row; }
+  /* canchas */
+  .container_canchas_boton {
+    display: block;
+    font-family: var(--fuente);
+    color: var(--color);
+    text-align: center;
+    padding: 2rem 5rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: black;
+    margin-bottom: 2rem;
+    border: none;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 3rem; }
+    .container_canchas_boton:hover {
+      color: var(--secundario);
+      background-color: #3c7209;
+      transition: 0.4s ease-out all; }
+    .container_canchas_boton .logo_nombre,
+    .container_canchas_boton .logo_nombre2 {
+      font-size: 4rem;
+      color: var(--color); }
+    .container_canchas_boton .logo_nombre2 {
+      margin-top: 2rem; }
+    .container_canchas_boton .container_grid,
+    .container_canchas_boton .container_grid2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 20rem;
+      margin-right: 2rem; }
+    .container_canchas_boton .container_img {
+      width: 300px;
+      height: 330px;
+      margin: 0 auto 2rem; }
+    .container_canchas_boton .container_img2 {
+      width: 300px;
+      height: 200px;
+      margin: 0 auto 2rem; }
+    .container_canchas_boton .container_img3 {
+      width: 300px;
+      height: 200px;
+      margin: 0; }
+    .container_canchas_boton .contenido_canchas_h1 {
+      font-size: 5rem; } }
+
 main .container {
   max-width: 1080px;
   margin: 0 auto; }
@@ -686,24 +598,65 @@ main .container_canchas_boton {
 
 main .container .container_tienda .container_tienda_pelotas {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: repeat(1, 1fr); }
 
-@media only screen and (min-width: 768px) {
-  .container_tienda_pelotas {
+@media (max-width: 1075px) {
+  main .container {
+    margin-left: 10rem;
     display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .container_tienda_botines {
-    display: none; }
-  div .contenedor_tienda_grid img {
-    width: 70px;
-    height: 80px; }
-  .container_h3 {
+    flex-direction: column; }
+    main .container #aside2 {
+      display: none; }
+    main .container .container_tienda_pelotas {
+      display: grid;
+      grid-template-columns: repeat 1, 1fr; }
+    main .container .container_tienda_botines {
+      display: none; }
+    main .container div .contenedor_tienda_grid img {
+      width: 70px;
+      height: 80px; }
+    main .container .container_h3 {
+      color: var(--color);
+      font-family: var(--fuente);
+      font-size: 5rem; } }
+
+@media (min-width: 700px) {
+  main .container_aside2 {
+    min-width: 10%;
+    margin-top: 4rem;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 20px;
+    padding-right: 2px;
+    /* margin: 40px 20px 20px 0; */
+    height: 2%;
+    background-color: var(--secundario);
+    padding: 2rem;
+    border-radius: 10px;
+    position: sticky;
+    top: 0 rem;
+    font-size: 7rem; }
+  main .container_h3 {
     color: var(--color);
     font-family: var(--fuente);
-    font-size: 500rem; } }
-=======
-  color: var(--secundario);
-  background-color: #3c7209;
-  transition: 0.4s ease-out all; }
->>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
+    font-size: 5rem; }
+  main .container_canchas_boton {
+    display: block;
+    font-family: var(--fuente);
+    color: var(--color);
+    text-align: center;
+    padding: 2rem 5rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: black;
+    margin-bottom: 2rem;
+    border: none;
+    text-decoration: none;
+    align-items: center; }
+    main .container_canchas_boton:hover {
+      color: var(--secundario);
+      background-color: #3c7209;
+      transition: 0.4s ease-out all; }
+  main .container .container_tienda .container_tienda_pelotas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }

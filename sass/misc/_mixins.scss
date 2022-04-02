@@ -1,18 +1,10 @@
 /* HELPERS */
 .color-n {
-<<<<<<< HEAD
   color: var($secundario);
 }
 .centrar-txt {
   text-align: center;
   color: var($secundario);
-=======
-  color: var(--secundario);
-}
-.centrar-txt {
-  text-align: center;
-  color: var(--secundario);
->>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
 }
 .flex-column {
   display: flex;
@@ -22,7 +14,6 @@
 .flex-row {
   display: flex;
 }
-<<<<<<< HEAD
 
 @mixin tamañoImg ($width,$height){
   height: $height;
@@ -38,5 +29,3 @@
 .container_img3{
   @include tamañoImg(300px,200px );
 }
-=======
->>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898

@@ -582,7 +582,7 @@ picture {
     font-size: 2rem;
   }
   .hero_promo {
-    padding-top: 33rem;
+    padding-top: 330rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -592,7 +592,7 @@ picture {
     z-index: 2;
   }
   .hero {
-    min-height: 1vh;
+    min-height: 89vh;
     position: relative;
   }
   aside,

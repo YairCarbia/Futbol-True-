@@ -15,11 +15,7 @@ html {
 }
 
 body {
-<<<<<<< HEAD
   color: var($secundario);
-=======
-  color: var(--secundario);
->>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
 }
 a {
   display: flex;
@@ -33,7 +29,6 @@ a {
       */
 
 h1 {
-<<<<<<< HEAD
   font-family: var($fuente);
   font-size: 7rem;
   color: var($color);
@@ -43,17 +38,6 @@ h2 {
 }
 p {
   font-family: var($fuente);
-=======
-  font-family: var(--fuente);
-  font-size: 7rem;
-  color: var(--color);
-}
-h2 {
-  font-family: var(--fuente);
-}
-p {
-  font-family: var(--fuente);
->>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
   font-size: 2.5rem;
   color: var(--color);
   margin: 0%;

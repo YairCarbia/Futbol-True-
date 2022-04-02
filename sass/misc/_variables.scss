@@ -1,18 +1,15 @@
 $fuente: "Bebas Neue", cursive;
 $color: white;
 $secundario: black;
-<<<<<<< HEAD
 
-$redes:(
-  twitter:blue,
-  insta:pink,
-  wpp:red,
-  );
+// $redes:(
+//   twitter:blue,
+//   insta:pink,
+//   wpp:red,
+//   );
   
-  @each $social ,$color in $redes {
-    .btn--#{$social}{
-      background-color: $color;
-    }
-  }
-=======
->>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
+//   @each $social ,$color in $redes {
+//     .btn--#{$social}{
+//       background-color: $color;
+//     }
+//   }
