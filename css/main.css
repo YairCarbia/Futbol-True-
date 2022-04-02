@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .btn--twitter {
   background-color: blue; }
 
@@ -7,6 +8,8 @@
 .btn--wpp {
   background-color: red; }
 
+=======
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
 *,
 *:before,
 *:after {
@@ -20,7 +23,11 @@ html {
   scroll-behavior: smooth; }
 
 body {
+<<<<<<< HEAD
   color: var(black); }
+=======
+  color: var(--secundario); }
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
 
 a {
   display: flex;
@@ -32,6 +39,7 @@ a {
       /* text-decoration: underline; 
       */
 h1 {
+<<<<<<< HEAD
   font-family: var("Bebas Neue", cursive);
   font-size: 7rem;
   color: var(white); }
@@ -41,6 +49,17 @@ h2 {
 
 p {
   font-family: var("Bebas Neue", cursive);
+=======
+  font-family: var(--fuente);
+  font-size: 7rem;
+  color: var(--color); }
+
+h2 {
+  font-family: var(--fuente); }
+
+p {
+  font-family: var(--fuente);
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
   font-size: 2.5rem;
   color: var(--color);
   margin: 0%;
@@ -48,11 +67,19 @@ p {
 
 /* HELPERS */
 .color-n {
+<<<<<<< HEAD
   color: var(black); }
 
 .centrar-txt {
   text-align: center;
   color: var(black); }
+=======
+  color: var(--secundario); }
+
+.centrar-txt {
+  text-align: center;
+  color: var(--secundario); }
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
 
 .flex-column {
   display: flex;
@@ -63,10 +90,34 @@ p {
   display: flex; }
 
 header {
+<<<<<<< HEAD
   background-color: var(black); }
   header .hero {
     min-height: 85.5vh;
     position: relative; }
+=======
+  background-color: var(--secundario); }
+  header .hero {
+    min-height: 87.5vh;
+    position: relative; }
+    header .hero .container_canchas_boton {
+      display: block;
+      font-family: var(--fuente);
+      color: var(--color);
+      text-align: center;
+      padding: 2rem 5rem;
+      font-size: 3rem;
+      text-transform: uppercase;
+      background-color: black;
+      margin-bottom: 2rem;
+      border: none;
+      text-decoration: none;
+      align-items: center; }
+      header .hero .container_canchas_boton:hover {
+        color: var(--secundario);
+        background-color: #3c7209;
+        transition: 0.4s ease-out all; }
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
     header .hero_promo {
       padding-top: 350px;
       display: flex;
@@ -77,6 +128,7 @@ header {
       margin: auto;
       position: relative;
       z-index: 2; }
+<<<<<<< HEAD
     header .hero .efecto {
       animation: efecto 1s; }
   header .navbar {
@@ -89,6 +141,17 @@ header {
     align-items: center;
     top: 0;
     background: var(black);
+=======
+  header .navbar {
+    padding: 10px;
+    background: var(--secundario);
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    background: var(--secundario);
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
     position: sticky !important;
     top: 0; }
     header .navbar_logo_img {
@@ -100,14 +163,22 @@ header {
     flex-basis: 30%;
     justify-content: space-between; }
   header .menu {
+<<<<<<< HEAD
     background-color: var(black);
+=======
+    background-color: var(--secundario);
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
     margin-bottom: 0rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-basis: 30%; }
     header .menu_logo {
+<<<<<<< HEAD
       color: var(white);
+=======
+      color: var(--color);
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
       font-size: 5rem;
       padding-top: 2rem; }
     header .menu_link {
@@ -116,10 +187,17 @@ header {
       padding: 20px;
       width: 100%;
       text-align: center;
+<<<<<<< HEAD
       color: var(white);
       transition: 0.4s ease-out all;
       font-size: 2rem;
       font-family: var("Bebas Neue", cursive); }
+=======
+      color: var(--color);
+      transition: 0.4s ease-out all;
+      font-size: 2rem;
+      font-family: var(--fuente); }
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
       header .menu_link_link:hover {
         background: #3c7209;
         color: #fff;
@@ -146,8 +224,13 @@ header {
 
 .boton {
   display: block;
+<<<<<<< HEAD
   font-family: var("Bebas Neue", cursive);
   color: var(white);
+=======
+  font-family: var(--fuente);
+  color: var(--color);
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
   text-align: center;
   padding: 2rem 5rem;
   font-size: 3rem;
@@ -162,6 +245,7 @@ header {
   text-align: center; }
 
 .boton:hover {
+<<<<<<< HEAD
   color: var(black);
   background-color: #3c7209;
   transition: 0.4s ease-out all; }
@@ -618,3 +702,8 @@ main .container .container_tienda .container_tienda_pelotas {
     color: var(--color);
     font-family: var(--fuente);
     font-size: 500rem; } }
+=======
+  color: var(--secundario);
+  background-color: #3c7209;
+  transition: 0.4s ease-out all; }
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898

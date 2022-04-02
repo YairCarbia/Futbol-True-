@@ -1,4 +1,5 @@
 header {
+<<<<<<< HEAD
   
   background-color: var($secundario);
   .hero{
@@ -25,6 +26,31 @@ header {
         
     //   }
     // }
+=======
+  background-color: var(--secundario);
+  .hero {
+    min-height: 87.5vh;
+    position: relative;
+    .container_canchas_boton {
+      display: block;
+      font-family: var(--fuente);
+      color: var(--color);
+      text-align: center;
+      padding: 2rem 5rem;
+      font-size: 3rem;
+      text-transform: uppercase;
+      background-color: black;
+      margin-bottom: 2rem;
+      border: none;
+      text-decoration: none;
+      align-items: center;
+      &:hover {
+        color: var(--secundario);
+        background-color: #3c7209;
+        transition: 0.4s ease-out all;
+      }
+    }
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
 
     &_promo {
       padding-top: 350px;
@@ -37,6 +63,7 @@ header {
       position: relative;
       z-index: 2;
     }
+<<<<<<< HEAD
     .efecto {
       animation: efecto 1s;
     }
@@ -48,11 +75,23 @@ header {
     position: sticky;
     display: flex;
     flex-direction: column;
+=======
+  }
+  .navbar {
+    padding: 10px;
+    background: var(--secundario);
+    position: sticky;
+    display: flex;
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
 
     justify-content: space-between;
     align-items: center;
     top: 0;
+<<<<<<< HEAD
     background: var($secundario);
+=======
+    background: var(--secundario);
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
     position: sticky !important;
     top: 0;
     &_logo_img {
@@ -68,14 +107,22 @@ header {
     justify-content: space-between;
   }
   .menu {
+<<<<<<< HEAD
     background-color: var($secundario);
+=======
+    background-color: var(--secundario);
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
     margin-bottom: 0rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-basis: 30%;
     &_logo {
+<<<<<<< HEAD
       color: var($color);
+=======
+      color: var(--color);
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
       font-size: 5rem;
       padding-top: 2rem;
     }
@@ -85,10 +132,17 @@ header {
       padding: 20px;
       width: 100%;
       text-align: center;
+<<<<<<< HEAD
       color: var($color);
       transition: 0.4s ease-out all;
       font-size: 2rem;
       font-family: var($fuente);
+=======
+      color: var(--color);
+      transition: 0.4s ease-out all;
+      font-size: 2rem;
+      font-family: var(--fuente);
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
       &_link:hover {
         background: #3c7209;
         color: #fff;
@@ -97,6 +151,10 @@ header {
     }
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
 .efecto {
   animation: efecto 1s;
 }
@@ -149,8 +207,13 @@ header {
 // }
 .boton {
   display: block;
+<<<<<<< HEAD
   font-family: var($fuente);
   color: var($color);
+=======
+  font-family: var(--fuente);
+  color: var(--color);
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
   text-align: center;
   padding: 2rem 5rem;
   font-size: 3rem;
@@ -166,7 +229,11 @@ header {
   text-align: center;
 }
 .boton:hover {
+<<<<<<< HEAD
   color: var($secundario);
+=======
+  color: var(--secundario);
+>>>>>>> d1b6cae491a521ff5d3f83afa4f3100e500d2898
   background-color: #3c7209;
   transition: 0.4s ease-out all;
 }
