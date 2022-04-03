@@ -181,3 +181,17 @@ header {
   background-color: #3c7209;
   transition: 0.4s ease-out all;
 }
+
+@media (max-width:800px){
+
+  .navbar {
+   
+    padding: 10px;
+    background: var($secundario);
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    // flex-direction: column;
+
+   }
+}

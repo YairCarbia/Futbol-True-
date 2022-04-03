@@ -66,7 +66,7 @@ main{
 
 @media   (max-width: 1075px) {
  main{
-  .container{ margin-left: 10rem;
+  .container{ margin-left: 5rem;
     display: flex;
     flex-direction: column;
     //   #aside2 {
@@ -154,6 +154,7 @@ main{
             border: none;
             text-decoration: none;
             align-items: center;
+            margin:0%;
             &:hover {
                 color: var(--secundario);
                 background-color: #3c7209;

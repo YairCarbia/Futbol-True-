@@ -192,23 +192,38 @@ header .hero_promo {
   background-color: #3c7209;
   transition: 0.4s ease-out all; }
 
-footer .menu {
-  background-color: var(black);
-  margin-bottom: 0rem;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-basis: 30%; }
-  footer .menu_div_ul {
+@media (max-width: 800px) {
+  .navbar {
+    padding: 10px;
+    background: var(black);
+    position: sticky;
+    display: flex;
+    flex-direction: column; } }
+
+footer {
+  background-color: var(black); }
+  footer nav .menu {
+    background-color: var(black);
+    margin-bottom: 0rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     flex-basis: 30%; }
-  footer .menu_logo {
-    color: var(white);
-    font-size: 5rem;
-    padding-top: 2rem; }
-  footer .menu_div {
-    margin-left: 2rem; }
+    footer nav .menu_div_ul {
+      flex-basis: 30%; }
+    footer nav .menu_logo {
+      color: var(white);
+      font-size: 5rem;
+      padding-top: 2rem; }
+    footer nav .menu_div {
+      margin-left: 2rem; }
+
+.hero {
+  min-height: 87.5vh;
+  position: relative; }
 
 main .container {
+  font-family: "Bebas Neue", cursive;
   max-width: 1080px;
   margin: 0 auto; }
   main .container .flex-row {
@@ -277,51 +292,6 @@ main .container {
       background-color: #3c7209;
       transition: 0.4s ease-out all; }
 
-@media (max-width: 600px) {
-  .hero {
-    min-height: 10.5vh;
-    position: relative; }
-    .hero_promo {
-      text-align: center; }
-    .hero .container_canchas_boton {
-      margin-left: -2rem; } }
-
-@media (min-width: 768px) {
-  .hero {
-    min-height: 10.5vh;
-    position: relative; }
-    .hero_promo {
-      text-align: center; }
-    .hero .container_canchas_boton {
-      margin-left: 10rem;
-      margin-right: 2rem; }
-  .container {
-    width: 5px; }
-    .container_canchas_boton {
-      margin-left: 20rem; }
-    .container p, .container li.container_canchas_boton {
-      text-align: left;
-      margin-left: 2rem; } }
-
-@media (max-width: 1000px) {
-  p {
-    font-size: 3rem;
-    text-align: center; }
-  h1 {
-    font-size: 4.5rem; }
-  .hero {
-    min-height: 2vh;
-    position: relative; }
-    .hero_promo {
-      padding-top: 12rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 60%;
-      margin: auto;
-      position: relative;
-      z-index: 2; } }
-
 main .container_form {
   margin-left: 4rem;
   margin-right: 20rem;
@@ -339,34 +309,26 @@ main .campo__field--textarea {
 main {
   /* efecto */ }
   main .container_cancha {
-    max-width: 1080px;
-    margin-left: 20rem;
-    display: flex;
-    align-items: center; }
+    max-width: 80%;
+    margin-left: 10rem; }
     main .container_cancha .container_grid,
     main .container_cancha .container_grid2 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-left: 2rem;
-      margin-right: 2rem; }
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); }
     main .container_cancha .contenedor_img {
       /* margin: 0 10px 10px 50px; */
-      margin-right: 2rem;
-      margin-bottom: 1rem;
-      width: 500px;
-      height: 470px; }
+      margin: 0 10px 100px 50px;
+      width: 400px;
+      height: 400px; }
     main .container_cancha .contenedor_img2 {
       /* margin: 0 10px 10px 50px; */
-      margin-left: 11rem;
-      margin-right: 0;
-      width: 500px;
-      height: 470px; }
+      margin: 0 10px 100px 50px;
+      width: 400px;
+      height: 400px; }
     main .container_cancha .contenedor_img3 {
-      width: 450px;
-      height: 300px;
-      margin-left: 4rem;
-      margin-right: 0rem; }
+      margin: 0 10px 100px 50px;
+      width: 400px;
+      height: 400px; }
   main .container_canchas_p {
     font-family: var(--fuente);
     color: var(--secundario);
@@ -403,7 +365,7 @@ main {
     font-size: 3rem;
     text-transform: uppercase;
     background-color: black;
-    margin-bottom: 2rem;
+    margin-bottom: 2.4rem;
     border: none;
     text-decoration: none;
     align-items: center; }
@@ -414,137 +376,10 @@ main {
   main .efecto {
     animation: efecto 1s; }
 
-@media only screen and (max-width: 768px) {
-  body {
-    background-color: #fff; }
-  .logo_img {
-    background-color: var(--secundario); }
-  nav {
-    background-color: var(--secundario); }
-  .container2 {
-    max-width: 768px;
-    padding: 10px;
-    background: var(--secundario);
-    position: sticky;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    position: sticky !important;
-    top: 0; }
-  .container {
-    /* margin-left: 0;
-  margin-right: 0;
-  max-width: 768px;
- margin:  2rem auto; */
-    padding: 10px;
-    background: white;
-    position: sticky;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    position: sticky !important;
-    top: 0; }
-  h1 {
-    font-size: 1.9rem; }
-  .menu {
-    padding: 10px;
-    background: var(--color);
-    position: sticky;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    background: var(--secundario);
-    position: sticky !important;
-    top: 0; }
-  .logo_nombre {
-    font-size: 2rem; }
-  .hero_promo {
-    padding-top: 30rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 60%;
-    margin: auto;
-    position: relative;
-    z-index: 2; }
-  .hero {
-    min-height: 89vh;
-    position: relative; }
-  aside,
-  .container_aside {
-    display: none; }
-  .container_canchas_h2 {
-    font-size: 5rem;
-    margin-left: 1rem; }
-  .container_canchas_p {
-    font-size: 4rem; }
-  .menu_div_ul {
-    padding: 10px;
-    background: var(--color);
-    position: sticky;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    background: var(--secundario);
-    position: sticky !important;
-    top: 0; }
-  .menu_link {
-    display: flex;
-    flex-direction: row; }
-  /* canchas */
-  .container_canchas_boton {
-    display: block;
-    font-family: var(--fuente);
-    color: var(--color);
-    text-align: center;
-    padding: 2rem 5rem;
-    font-size: 3rem;
-    text-transform: uppercase;
-    background-color: black;
-    margin-bottom: 2rem;
-    border: none;
-    text-decoration: none;
-    align-items: center;
-    margin-left: 3rem; }
-    .container_canchas_boton:hover {
-      color: var(--secundario);
-      background-color: #3c7209;
-      transition: 0.4s ease-out all; }
-    .container_canchas_boton .logo_nombre,
-    .container_canchas_boton .logo_nombre2 {
-      font-size: 4rem;
-      color: var(--color); }
-    .container_canchas_boton .logo_nombre2 {
-      margin-top: 2rem; }
-    .container_canchas_boton .container_grid,
-    .container_canchas_boton .container_grid2 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-left: 20rem;
-      margin-right: 2rem; }
-    .container_canchas_boton .container_img {
-      width: 300px;
-      height: 330px;
-      margin: 0 auto 2rem; }
-    .container_canchas_boton .container_img2 {
-      width: 300px;
-      height: 200px;
-      margin: 0 auto 2rem; }
-    .container_canchas_boton .container_img3 {
-      width: 300px;
-      height: 200px;
-      margin: 0; }
-    .container_canchas_boton .contenido_canchas_h1 {
-      font-size: 5rem; } }
+@media (max-width: 800px) {
+  .container_grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important; } }
 
 main .container {
   max-width: 1080px;
@@ -602,7 +437,7 @@ main .container .container_tienda .container_tienda_pelotas {
 
 @media (max-width: 1075px) {
   main .container {
-    margin-left: 10rem;
+    margin-left: 5rem;
     display: flex;
     flex-direction: column; }
     main .container #aside2 {
@@ -652,7 +487,8 @@ main .container .container_tienda .container_tienda_pelotas {
     margin-bottom: 2rem;
     border: none;
     text-decoration: none;
-    align-items: center; }
+    align-items: center;
+    margin: 0%; }
     main .container_canchas_boton:hover {
       color: var(--secundario);
       background-color: #3c7209;
