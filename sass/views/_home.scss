@@ -105,7 +105,20 @@ main{
         
 
 }
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+  .menu_logo{
+    font-size: 3rem !important;
+  }
+  .menu_link {
+   width: 68px !important;
 
+padding-top: 10px !important  ;
+padding-bottom: 10px !important;    
+margin-bottom: 0rem !important;
+   margin-right: 0rem !important;
+   margin-left: -1rem !important;
+  font-size: 1rem !important;}
+}
 
 @media (max-width:768px){
   h1{

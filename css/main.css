@@ -292,6 +292,18 @@ main .container {
       background-color: #3c7209;
       transition: 0.4s ease-out all; }
 
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+  .menu_logo {
+    font-size: 3rem !important; }
+  .menu_link {
+    width: 68px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 0rem !important;
+    margin-right: 0rem !important;
+    margin-left: -1rem !important;
+    font-size: 1rem !important; } }
+
 @media (max-width: 768px) {
   h1 {
     font-size: 1.8rem !important; }
@@ -349,6 +361,16 @@ main .campo__field--textarea {
     margin-right: -3rem  !important; } }
 
 @media (max-width: 768) {
+  .container_form {
+    margin-left: -20rem !important;
+    margin-right: 2rem !important;
+    margin-bottom: 2rem !important; }
+  .campo__label {
+    margin-left: -4rem !important; }
+  .campo__field {
+    margin-left: -2rem !important; }
+  .campo__field--textarea {
+    margin-right: -3rem !important; }
   .container_h4 {
     color: var(white) !important;
     text-align: center !important; }
@@ -437,7 +459,7 @@ main {
   .contenido_canchas_h1 {
     font-size: 5rem !important; }
   .container_cancha {
-    margin-left: 5rem !important; }
+    margin-left: 2rem !important; }
   .container {
     max-width: 80%;
     margin-left: 1rem !important; }
@@ -450,11 +472,11 @@ main {
     .container_img {
       width: 225px !important;
       height: 225px !important;
-      margin: 2rem 3rem 0 auto !important; }
+      margin: 2rem 0rem 0 auto !important; }
     .container_img3 {
       width: 225px !important;
       height: 225px !important;
-      margin: 2rem 2rem 0 auto !important; } }
+      margin: 2rem 0rem 0 auto !important; } }
 
 main .container {
   max-width: 1080px;
@@ -466,16 +488,6 @@ main .container {
     width: 300px;
     height: 200px;
     margin-left: 35rem; }
-
-@media (min-width: 800px) {
-  h1 {
-    font-size: 4rem !important; }
-  .contenedor_img5 {
-    width: 300px;
-    height: 200px;
-    margin-left: 35rem !important; }
-  .menu_link {
-    margin-bottom: 2rem !important; } }
 
 @media (max-width: 799px) {
   h1 {
