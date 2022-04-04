@@ -1,6 +1,6 @@
 // MAIN 
 .hero {         
-  min-height: 87.5vh;
+  min-height: 89.7vh !important;
   position: relative;
 }
 main{
@@ -106,3 +106,17 @@ main{
 
 }
 
+
+@media (max-width:768px){
+  h1{
+    font-size: 1.8rem !important;
+  }
+  .hero {         
+    min-height: 80vh !important;
+    position: relative;
+  }
+ .container_aside{
+display: none;
+
+}
+}

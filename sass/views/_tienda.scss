@@ -62,7 +62,27 @@ main{
         }
     }
 }
-
+@media only screen and (min-width: 1250px) and (max-width: 1980px) {
+  .container_cancha {
+     max-width: 100% !important; 
+    margin-left: 20rem !important;
+}
+}
+@media only screen and (min-width: 561px) and (max-width: 699px) {
+  .container_tienda_pelotas{
+    margin-left: 15rem !important;
+  }
+}
+@media only screen and (min-width: 462px) and (max-width: 560px) {
+  .container_tienda_pelotas{
+    margin-left: 10rem !important;
+  }
+}
+@media only screen and (min-width: 430px) and (max-width: 460px) {
+  .container_tienda_pelotas{
+    margin-left: 5rem !important;
+  }
+}
 
 @media   (max-width: 1075px) {
  main{
@@ -180,6 +200,7 @@ main{
         }
     }
 }
+
   
   // main{
   //  .container{ margin-left: 10rem;

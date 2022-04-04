@@ -100,7 +100,10 @@ main{
 
 }
 @media(max-width:800px){
-.container_cancha{
+.contenido_canchas_h1{
+  font-size: 5rem !important;
+}
+  .container_cancha{
   margin-left: 5rem !important ;
 }
   .container{
@@ -118,9 +121,13 @@ main{
 }
 
  &_img{
+   width: 225px !important;
+   height: 225px !important;
    margin:2rem 3rem 0 auto !important;
  }
  &_img3{
+   width: 225px !important;
+   height: 225px !important;
    margin:2rem 2rem 0 auto !important;
  }
 }

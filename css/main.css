@@ -87,7 +87,7 @@ header {
         color: var(--secundario);
         background-color: #3c7209;
         transition: 0.4s ease-out all; }
-    > > >
+    
 header .hero_promo {
       padding-top: 350px;
       display: flex;
@@ -219,7 +219,7 @@ footer {
       margin-left: 2rem; }
 
 .hero {
-  min-height: 87.5vh;
+  min-height: 89.7vh !important;
   position: relative; }
 
 main .container {
@@ -292,8 +292,20 @@ main .container {
       background-color: #3c7209;
       transition: 0.4s ease-out all; }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem !important; }
+  .hero {
+    min-height: 80vh !important;
+    position: relative; }
+  .container_aside {
+    display: none; } }
+
+main .container_h4 {
+  text-align: center; }
+
 main .container_form {
-  margin-left: 4rem;
+  margin-left: 20rem;
   margin-right: 20rem;
   margin-bottom: 2rem; }
 
@@ -305,6 +317,51 @@ main .campo__field {
 
 main .campo__field--textarea {
   margin-right: -3rem; }
+
+@media only screen and (min-width: 770px) and (max-width: 1500px) {
+  .container_h4 {
+    color: var(white) !important;
+    text-align: center !important; }
+  .container_form {
+    margin-left: 10rem  !important;
+    margin-right: 8rem !important;
+    margin-bottom: 2rem  !important; }
+  .campo__label {
+    margin-left: -4rem !important; }
+  .campo__field {
+    margin-left: -2rem !important; }
+  .campo__field--textarea {
+    margin-right: -3rem  !important; } }
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  .container_h4 {
+    color: var(white) !important;
+    text-align: center !important; }
+  .container_form {
+    margin-left: 2rem  !important;
+    margin-right: 2rem !important;
+    margin-bottom: 2rem  !important; }
+  .campo__label {
+    margin-left: -4rem !important; }
+  .campo__field {
+    margin-left: -2rem !important; }
+  .campo__field--textarea {
+    margin-right: -3rem  !important; } }
+
+@media (max-width: 768) {
+  .container_h4 {
+    color: var(white) !important;
+    text-align: center !important; }
+  .container_form {
+    margin-left: -44rem  !important;
+    margin-right: 20rem !important;
+    margin-bottom: 2rem  !important; }
+  .campo__label {
+    margin-left: -4rem !important; }
+  .campo__field {
+    margin-left: -2rem !important; }
+  .campo__field--textarea {
+    margin-right: -3rem  !important; } }
 
 main {
   /* efecto */ }
@@ -377,6 +434,8 @@ main {
     animation: efecto 1s; }
 
 @media (max-width: 800px) {
+  .contenido_canchas_h1 {
+    font-size: 5rem !important; }
   .container_cancha {
     margin-left: 5rem !important; }
   .container {
@@ -389,8 +448,12 @@ main {
       display: grid;
       grid-template-columns: repeat(1, 1fr) !important; }
     .container_img {
+      width: 225px !important;
+      height: 225px !important;
       margin: 2rem 3rem 0 auto !important; }
     .container_img3 {
+      width: 225px !important;
+      height: 225px !important;
       margin: 2rem 2rem 0 auto !important; } }
 
 main .container {
@@ -402,7 +465,37 @@ main .container {
   main .container_pic .contenedor_img5 {
     width: 300px;
     height: 200px;
-    margin-left: 0; }
+    margin-left: 35rem; }
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 4rem !important; }
+  .contenedor_img5 {
+    width: 300px;
+    height: 200px;
+    margin-left: 35rem !important; }
+  .menu_link {
+    margin-bottom: 2rem !important; } }
+
+@media (max-width: 799px) {
+  h1 {
+    font-size: 3rem !important; }
+  .contenedor_img5 {
+    width: 300px;
+    height: 200px;
+    margin-left: 12rem !important; }
+  .menu_link {
+    margin-bottom: 2rem !important; } }
+
+@media (max-width: 765px) {
+  h1 {
+    font-size: 3rem !important; }
+  .contenedor_img5 {
+    width: 300px;
+    height: 200px;
+    margin-left: 3rem !important; }
+  .menu_link {
+    margin-bottom: 2rem !important; } }
 
 main .container_aside2 {
   min-width: 10%;
@@ -446,6 +539,23 @@ main .container_canchas_boton {
 main .container .container_tienda .container_tienda_pelotas {
   display: grid;
   grid-template-columns: repeat(1, 1fr); }
+
+@media only screen and (min-width: 1250px) and (max-width: 1980px) {
+  .container_cancha {
+    max-width: 100% !important;
+    margin-left: 20rem !important; } }
+
+@media only screen and (min-width: 561px) and (max-width: 699px) {
+  .container_tienda_pelotas {
+    margin-left: 15rem !important; } }
+
+@media only screen and (min-width: 462px) and (max-width: 560px) {
+  .container_tienda_pelotas {
+    margin-left: 10rem !important; } }
+
+@media only screen and (min-width: 430px) and (max-width: 460px) {
+  .container_tienda_pelotas {
+    margin-left: 5rem !important; } }
 
 @media (max-width: 1075px) {
   main .container {
