@@ -105,9 +105,30 @@ main{
         
 
 }
-@media only screen and (min-width: 200px) and (max-width: 500px) {
-  .menu_logo{
+@media only screen and (min-width: 769px) and (max-width: 1278px) {
+  h1{
+    font-size: 4rem !important;
+  }
+  .logo_nombre{
     font-size: 3rem !important;
+  }
+}
+// @media only screen and (min-width: 300px) and (max-width: 549px) {
+//   h1{
+//     font-size: 2rem !important;
+//   }
+//   .logo_nombre{
+//     font-size: 3rem !important;
+//   }
+// }
+
+
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+  h1{
+         font-size: 1rem !important;
+     }
+  .menu_logo{
+    font-size: 3rem !important ;
   }
   .menu_link {
    width: 68px !important;

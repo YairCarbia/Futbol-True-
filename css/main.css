@@ -94,7 +94,6 @@ header .hero_promo {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 60%;
       margin: auto;
       position: sticky;
       z-index: 2; }
@@ -292,7 +291,15 @@ main .container {
       background-color: #3c7209;
       transition: 0.4s ease-out all; }
 
+@media only screen and (min-width: 769px) and (max-width: 1278px) {
+  h1 {
+    font-size: 4rem !important; }
+  .logo_nombre {
+    font-size: 3rem !important; } }
+
 @media only screen and (min-width: 200px) and (max-width: 500px) {
+  h1 {
+    font-size: 1rem !important; }
   .menu_logo {
     font-size: 3rem !important; }
   .menu_link {
@@ -490,8 +497,6 @@ main .container {
     margin-left: 35rem; }
 
 @media (max-width: 799px) {
-  h1 {
-    font-size: 3rem !important; }
   .contenedor_img5 {
     width: 300px;
     height: 200px;
@@ -500,8 +505,6 @@ main .container {
     margin-bottom: 2rem !important; } }
 
 @media (max-width: 765px) {
-  h1 {
-    font-size: 3rem !important; }
   .contenedor_img5 {
     width: 300px;
     height: 200px;
