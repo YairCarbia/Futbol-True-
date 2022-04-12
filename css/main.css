@@ -87,7 +87,7 @@ header {
         color: var(--secundario);
         background-color: #3c7209;
         transition: 0.4s ease-out all; }
-    
+  
 header .hero_promo {
       padding-top: 350px;
       display: flex;
@@ -303,13 +303,13 @@ main .container {
   .menu_logo {
     font-size: 3rem !important; }
   .menu_link {
-    width: 68px !important;
+    width: 75px !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
     margin-bottom: 0rem !important;
     margin-right: 0rem !important;
     margin-left: -1rem !important;
-    font-size: 1rem !important; } }
+    font-size: 2rem !important; } }
 
 @media (max-width: 768px) {
   h1 {
