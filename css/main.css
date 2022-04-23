@@ -536,6 +536,25 @@ main .container {
   .menu_link {
     margin-bottom: 2rem !important; } }
 
+header .submenu {
+  position: relative; }
+
+header .submenu #carrito {
+  display: none; }
+
+header .submenu:hover #carrito {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  background-color: #3c7209;
+  padding: 10px;
+  min-height: 450px;
+  min-width: 300px; }
+
 main .container_aside2 {
   min-width: 10%;
   margin-top: 4rem;
@@ -575,9 +594,17 @@ main .container_canchas_boton {
     background-color: #3c7209;
     transition: 0.4s ease-out all; }
 
+main .container .contenedor_tienda_pelotas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
 main .container .container_tienda .container_tienda_pelotas {
   display: grid;
-  grid-template-columns: repeat(1, 1fr); }
+  grid-template-columns: repeat(3, 1fr); }
+
+main .container .container_tienda .container_imgs {
+  width: 300px !important;
+  height: 300px !important; }
 
 @media only screen and (min-width: 1250px) and (max-width: 1980px) {
   .container_cancha {
@@ -655,5 +682,5 @@ main .container .container_tienda .container_tienda_pelotas {
       background-color: #3c7209;
       transition: 0.4s ease-out all; }
   main .container .container_tienda .container_tienda_pelotas {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); } }
+    margin-left: -10rem;
+    display: grid; } }
