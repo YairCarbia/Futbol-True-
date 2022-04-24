@@ -54,16 +54,16 @@ p {
   display: flex; }
 
 .container_img {
-  height: 200px;
-  width: 300px; }
+  height: 400px !important;
+  width: 500px; }
 
 .container_img2 {
-  height: 200px;
-  width: 300px; }
+  height: 400px !important;
+  width: 500px; }
 
 .container_img3 {
-  height: 200px;
-  width: 300px; }
+  height: 400px !important;
+  width: 500px; }
 
 header {
   background-color: var(--secundario); }
@@ -199,6 +199,23 @@ header .hero_promo {
     display: flex;
     flex-direction: column; } }
 
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+  h1 {
+    font-size: 1rem !important; }
+  .menu_logo {
+    font-size: 3rem !important; }
+  .menu_link {
+    padding-bottom: 10px !important;
+    margin-top: 1rem !important;
+    margin-right: 0.5rem !important;
+    margin-left: 0.2rem !important;
+    font-size: 1.4rem !important;
+    height: 45px !important;
+    width: 67px !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; } }
+
 footer {
   background-color: var(black); }
   footer nav .menu {
@@ -247,13 +264,13 @@ main .container {
     font-family: var("Bebas Neue", cursive); }
     main .container_aside_aside_titulo {
       font-family: var("Bebas Neue", cursive);
-      color: var(--color);
+      color: var(white);
       padding: 1.2rem;
       text-align: center; }
     main .container_aside_aside_ancla {
       display: block;
       font-family: var("Bebas Neue", cursive);
-      color: var(--color);
+      color: var(white);
       text-align: center;
       padding: 2rem 5rem;
       font-size: 3.6rem;
@@ -268,15 +285,15 @@ main .container {
   main .container_canchas_p {
     font-size: 4rem; }
   main .container_canchas_ul {
-    font-family: var(--fuente);
-    color: var(--secundario);
+    font-family: var("Bebas Neue", cursive);
+    color: var(black);
     padding: 1.2rem;
     font-size: 4rem;
     list-style: none; }
-  main .container .container_canchas_boton {
+  main .container_canchas_boton {
     display: block;
-    font-family: var(--fuente);
-    color: var(--color);
+    font-family: var("Bebas Neue", cursive);
+    color: var(white);
     text-align: center;
     padding: 2rem 5rem;
     font-size: 3rem;
@@ -286,8 +303,8 @@ main .container {
     border: none;
     text-decoration: none;
     align-items: center; }
-    main .container .container_canchas_boton:hover {
-      color: var(--secundario);
+    main .container_canchas_boton:hover {
+      color: var(black);
       background-color: #3c7209;
       transition: 0.4s ease-out all; }
 
@@ -296,19 +313,6 @@ main .container {
     font-size: 4rem !important; }
   .logo_nombre {
     font-size: 3rem !important; } }
-
-@media only screen and (min-width: 200px) and (max-width: 500px) {
-  h1 {
-    font-size: 1rem !important; }
-  .menu_logo {
-    font-size: 3rem !important; }
-  .menu_link {
-    width: 91px !important;
-    padding-bottom: 10px !important;
-    margin-bottom: 0rem !important;
-    margin-right: 0rem !important;
-    margin-left: -1rem !important;
-    font-size: 1.9rem !important; } }
 
 @media (max-width: 768px) {
   h1 {
@@ -326,15 +330,12 @@ main .container_form {
   margin-left: 20rem;
   margin-right: 20rem;
   margin-bottom: 2rem; }
-
-main .campo__label {
-  margin-left: -4rem; }
-
-main .campo__field {
-  margin-left: -2rem; }
-
-main .campo__field--textarea {
-  margin-right: -3rem; }
+  main .container_form_camp_label {
+    margin-left: -4rem; }
+  main .container_form_camp_field {
+    margin-left: -2rem; }
+  main .container_form_textarea {
+    margin-right: -3rem; }
 
 @media only screen and (min-width: 770px) and (max-width: 1500px) {
   .container_h4 {
@@ -344,17 +345,28 @@ main .campo__field--textarea {
     margin-left: 10rem  !important;
     margin-right: 8rem !important;
     margin-bottom: 2rem  !important; }
-  .campo__label {
-    margin-left: -4rem !important; }
-  .campo__field {
-    margin-left: -2rem !important; }
-  .campo__field--textarea {
-    margin-right: -3rem  !important; } }
+    .container_form_camp_label {
+      margin-left: -4rem; }
+    .container_form_camp_field {
+      margin-left: -2rem; }
+    .container_form_textarea {
+      margin-right: -3rem  !important; } }
 
 @media only screen and (min-width: 300px) and (max-width: 768px) {
   .container_h4 {
     color: var(white) !important;
-    text-align: center !important; }
+    text-align: center !important;
+    font-size: 5rem !important; }
+  .container_form {
+    margin-left: 10rem  !important;
+    margin-right: 8rem !important;
+    margin-bottom: 2rem  !important; }
+    .container_form_camp_label {
+      margin-left: -4rem; }
+    .container_form_camp_field {
+      margin-left: -2rem; }
+    .container_form_textarea {
+      margin-right: -3rem  !important; }
   .container_form {
     margin-left: 2rem  !important;
     margin-right: 2rem !important;
@@ -371,12 +383,12 @@ main .campo__field--textarea {
     margin-left: -20rem !important;
     margin-right: 2rem !important;
     margin-bottom: 2rem !important; }
-  .campo__label {
-    margin-left: -4rem !important; }
-  .campo__field {
-    margin-left: -2rem !important; }
-  .campo__field--textarea {
-    margin-right: -3rem !important; }
+    .container_form_camp_label {
+      margin-left: -4rem !important; }
+    .container_form_camp_field {
+      margin-left: -2rem !important; }
+    .container_form_textarea {
+      margin-right: -3rem !important; }
   .container_h4 {
     color: var(white) !important;
     text-align: center !important; }
@@ -415,36 +427,35 @@ main {
       width: 400px;
       height: 400px; }
   main .container_canchas_p {
-    font-family: var(--fuente);
-    color: var(--secundario);
+    font-family: var("Bebas Neue", cursive);
+    color: var(black);
     padding: 1.2rem;
     font-size: 5rem; }
   main .container_canchas_ul {
-    font-family: var(--fuente);
-    color: var(--secundario);
+    font-family: var("Bebas Neue", cursive);
+    color: var(black);
     padding: 1.2rem;
     font-size: 4rem;
     list-style: none; }
   main .contenido_canchas_h1 {
-    color: var(--secundario);
+    color: var(black);
     font-size: 10rem;
-    font-family: var(--fuente);
+    font-family: var("Bebas Neue", cursive);
     list-style: none;
     margin-right: 0; }
   main .contenido_canchas_p {
-    color: var(--secundario);
+    color: var(black);
     font-size: 5rem;
-    font-family: var(--fuente);
+    font-family: var("Bebas Neue", cursive);
     list-style: none; }
   main .contenido_canchas_ul {
-    color: var(--secundario);
-    font-size: 2rem;
-    font-family: var(--fuente);
+    color: var(black);
+    font-family: var("Bebas Neue", cursive);
     list-style: none; }
   main .container_canchas_boton {
     display: block;
-    font-family: var(--fuente);
-    color: var(--color);
+    font-family: var("Bebas Neue", cursive);
+    color: var(white);
     text-align: center;
     padding: 2rem 5rem;
     font-size: 3rem;
@@ -456,7 +467,7 @@ main {
     text-decoration: none;
     align-items: center; }
     main .container_canchas_boton:hover {
-      color: var(--secundario);
+      color: var(black);
       background-color: #3c7209;
       transition: 0.4s ease-out all; }
   main .efecto {
@@ -487,13 +498,23 @@ main {
       display: grid;
       grid-template-columns: repeat(1, 1fr) !important; }
     .container_img {
-      width: 225px !important;
+      margin: 2rem 2rem 0 auto !important;
       height: 225px !important;
-      margin: 2rem 0rem 0 auto !important; }
+      width: 225px !important; }
     .container_img3 {
-      width: 225px !important;
+      margin: 2rem 0rem 2rem auto !important;
       height: 225px !important;
-      margin: 2rem 0rem 0 auto !important; } }
+      width: 225px !important; } }
+
+@media only screen and (min-width: 509px) and (max-width: 799px) {
+  .container_img {
+    margin: 2rem 2rem 0 auto !important;
+    height: 400px !important;
+    width: 400px !important; }
+  .container_img3 {
+    margin: 2rem 0rem 2rem auto !important;
+    height: 400px !important;
+    width: 400px !important; } }
 
 main .container {
   max-width: 1080px;
@@ -529,31 +550,14 @@ main .container {
     margin-bottom: 2rem !important; } }
 
 @media (max-width: 765px) {
+  .centrar-txt {
+    font-size: 5rem; }
   .contenedor_img5 {
-    width: 300px;
-    height: 200px;
-    margin-left: 3rem !important; }
+    height: 200px !important;
+    width: 300px !important;
+    margin-left: -0.5rem !important; }
   .menu_link {
     margin-bottom: 2rem !important; } }
-
-header .submenu {
-  position: relative; }
-
-header .submenu #carrito {
-  display: none; }
-
-header .submenu:hover #carrito {
-  font-family: "Bebas Neue", cursive;
-  font-size: 3rem;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 100%;
-  z-index: 1;
-  background-color: #3c7209;
-  padding: 10px;
-  min-height: 450px;
-  min-width: 300px; }
 
 main .container_aside2 {
   min-width: 10%;
@@ -594,17 +598,9 @@ main .container_canchas_boton {
     background-color: #3c7209;
     transition: 0.4s ease-out all; }
 
-main .container .contenedor_tienda_pelotas {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); }
-
 main .container .container_tienda .container_tienda_pelotas {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); }
-
-main .container .container_tienda .container_imgs {
-  width: 300px !important;
-  height: 300px !important; }
+  grid-template-columns: repeat(1, 1fr); }
 
 @media only screen and (min-width: 1250px) and (max-width: 1980px) {
   .container_cancha {
@@ -622,6 +618,10 @@ main .container .container_tienda .container_imgs {
 @media only screen and (min-width: 430px) and (max-width: 460px) {
   .container_tienda_pelotas {
     margin-left: 5rem !important; } }
+
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+  .contenedor_tienda_producto {
+    margin-left: -0.4rem !important; } }
 
 @media (max-width: 1075px) {
   main .container {
@@ -682,5 +682,5 @@ main .container .container_tienda .container_imgs {
       background-color: #3c7209;
       transition: 0.4s ease-out all; }
   main .container .container_tienda .container_tienda_pelotas {
-    margin-left: -10rem;
-    display: grid; } }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }

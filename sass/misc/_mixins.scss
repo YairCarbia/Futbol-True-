@@ -21,11 +21,11 @@
 }
 
 .container_img{
-  @include tamañoImg(300px,200px );
+  @include tamañoImg(500px,400px !important );
 }
 .container_img2{
-  @include tamañoImg(300px,200px );
+  @include tamañoImg(500px,400px  !important);
 }
 .container_img3{
-  @include tamañoImg(300px,200px );
+  @include tamañoImg(500px,400px !important );
 }
